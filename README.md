@@ -3,6 +3,8 @@ This project compares compares the classification performance of Naive Bayes, SV
 
 The dataset can be found at: https://www.kaggle.com/uciml/pima-indians-diabetes-database/data
 
+See the Jupyter notebook: PimaDiabetesClassification.ipynb
+
 The repository consists of the following files:
 
 datatools.py: Contains helper functions for data loading and processing

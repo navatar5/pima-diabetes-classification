@@ -1,5 +1,7 @@
 from sklearn import tree
 import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.pyplot as plt
 import graphviz
 
 
@@ -29,6 +31,27 @@ def train_ccp(labels, features, ccp_alpha):
     clf = clf.fit(features, labels)
 
     return clf
+
+
+def show_feature_importances(clf, features):
+    importances = clf.feature_importances_
+
+    indices = np.argsort(importances)[::-1]
+
+    # Print the feature ranking
+    print("Feature ranking:")
+
+    for f in range(features.shape[1]):
+        print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
+
+    # Plot the feature importances of the forest
+    plt.figure()
+    plt.title("Feature importances")
+    plt.bar(range(features.shape[1]), importances[indices],
+            color="r", align="center")
+    plt.xticks(range(features.shape[1]), indices)
+    plt.xlim([-1, features.shape[1]])
+    plt.show()
 
 
 def get_ccp_alphas(train_labels, train_features):

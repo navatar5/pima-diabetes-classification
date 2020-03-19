@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05927cbb-38d8-422a-ae83-0bb41653fef4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MLKit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MLKit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatools.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,9 +34,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
-  <component name="RunManager" selected="Python.crossvalidate">
+  <component name="RunManager" selected="Python.main">
     <configuration name="MLKit" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="MLKit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +103,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\prane\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\prane\AppData\Local\Programs\Python\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -147,22 +146,54 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582824605357">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583956771810">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582824605357" />
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583956771810" />
     <state x="1014" y="462" key="EnvironmentVariablesDialog" timestamp="1582824533147">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1014" y="462" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582824533147" />
-    <state x="1059" y="454" key="FileChooserDialogImpl" timestamp="1582824849629">
+    <state x="1059" y="454" key="FileChooserDialogImpl" timestamp="1583949807504">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1059" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1582824849629" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1582830601824">
+    <state x="1059" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583949807504" />
+    <state width="2539" height="314" key="GridCell.Tab.0.bottom" timestamp="1583958271560">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1582830601824" />
+    <state width="2539" height="314" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.0.center" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.0.left" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.0.right" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.1.bottom" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.1.center" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.1.left" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state width="2539" height="314" key="GridCell.Tab.1.right" timestamp="1583958271560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="314" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583958271560" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1583950405329">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583950405329" />
     <state x="981" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1582824360564">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

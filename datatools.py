@@ -1,7 +1,7 @@
 # Contains function for loading and splitting data
 import csv
 import numpy as np
-
+from sklearn.metrics import confusion_matrix
 
 def loadDataset(filename):
 
@@ -55,4 +55,20 @@ def classify(probs):
     # returns the classifications given class probabilities
     preds = np.argmax(probs, 1)
     return preds
+
+
+def binary_metrics(labels, predictions, *args):
+    conf = confusion_matrix(labels, predictions)
+    fp_rate = conf[0, 1] / (conf[0, 1] + conf[0, 0])
+    tp_rate = conf[1, 1] / (conf[1, 1] + conf[1, 0])
+
+    if args[0] == 'tp':
+        return tp_rate
+
+    if args[0] == 'fp:':
+        return fp_rate
+
+    if args[0] == 'acc':
+        return accuracy(labels, predictions)
+
 

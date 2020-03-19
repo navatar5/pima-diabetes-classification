@@ -3,15 +3,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def train(labels, features):
-    clf = RandomForestClassifier(class_weight="balanced", max_depth=7, min_samples_split=5)
-    clf = clf.fit(features, labels)
 
-    return clf
+def train(labels, features, *args):
+    # args[0] will be the ccp_alpha parameter if used
+    if len(args) < 1:
+        clf = RandomForestClassifier(class_weight="balanced", max_depth=7, min_samples_split=5, random_state=0)
+    else:
+        clf = RandomForestClassifier(class_weight="balanced", random_state=0, ccp_alpha=args[0])
 
-
-def train_ccp(labels, features, ccp_alpha):
-    clf = RandomForestClassifier(class_weight="balanced", ccp_alpha=ccp_alpha)
     clf = clf.fit(features, labels)
 
     return clf

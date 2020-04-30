@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05927cbb-38d8-422a-ae83-0bb41653fef4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MLKit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MLKit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datatools.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

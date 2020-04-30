@@ -21,6 +21,11 @@ def run(clf, features):
     return predictions
 
 
+def run_prob(clf, features):
+    predictions = clf.predict_proba(features)
+    return predictions
+
+
 def show_feature_importances(clf, features):
     importances = clf.feature_importances_
     std = np.std([tree.feature_importances_ for tree in clf.estimators_],

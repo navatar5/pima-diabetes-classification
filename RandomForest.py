@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
 def train(labels, features, *args):
     # args[0] will be the ccp_alpha parameter if used
     if len(args) < 1:

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="05927cbb-38d8-422a-ae83-0bb41653fef4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LGBM.py" beforeDir="false" afterPath="$PROJECT_DIR$/LGBM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForest.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pisa_ml" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RunManager" selected="Python.main">
@@ -150,10 +153,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1014" y="462" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1582824533147" />
-    <state x="1059" y="454" key="FileChooserDialogImpl" timestamp="1583949807504">
+    <state x="1059" y="454" key="FileChooserDialogImpl" timestamp="1588863650465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1059" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583949807504" />
+    <state x="1059" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1588863650465" />
     <state width="2539" height="314" key="GridCell.Tab.0.bottom" timestamp="1583958271560">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

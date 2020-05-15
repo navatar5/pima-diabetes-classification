@@ -4,7 +4,7 @@ import numpy as np
 
 def train(labels, features):
 
-    clf = LGBMClassifier(n_estimators=100, class_weight='balanced', max_bin=100, max_depth=5, num_leaves=20, random_state=0, learning_rate=0.003, reg_alpha=0.1, reg_lambda=0.01, subsample_freq=1, subsample=0.8, colsample_bytree=0.7)
+    clf = LGBMClassifier(random_state=0, n_estimators=100, class_weight='balanced', num_leaves=25, objective='binary', learning_rate=.05, max_bin=200, metric=['auc', 'binary_logloss'], reg_alpha=0.5, reg_lambda=0.5)
 
     clf = clf.fit(features, labels)
 
